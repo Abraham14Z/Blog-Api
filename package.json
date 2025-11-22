@@ -2,7 +2,7 @@
   "name": "blog-api",
   "version": "1.0.0",
   "description": "A simple Back end blog app that lets users create, edit, and delete posts using Node.js, Express, and MongoDB",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Abraham14Z/Blog-Api/issues"
   },
-  "homepage": "https://github.com/Abraham14Z/Blog-Api#readme"
+  "homepage": "https://github.com/Abraham14Z/Blog-Api#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
